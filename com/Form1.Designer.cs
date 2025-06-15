@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.btnElaveEt = new System.Windows.Forms.Button();
+            this.btnTemizle = new System.Windows.Forms.Button();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtDogomtarixi = new System.Windows.Forms.TextBox();
+            this.txtMilliyyet = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,75 +42,75 @@
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnElaveEt
             // 
-            this.button1.BackColor = System.Drawing.Color.LimeGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(24, 331);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Əlavə et";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnElaveEt.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnElaveEt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElaveEt.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnElaveEt.Location = new System.Drawing.Point(24, 331);
+            this.btnElaveEt.Name = "btnElaveEt";
+            this.btnElaveEt.Size = new System.Drawing.Size(166, 37);
+            this.btnElaveEt.TabIndex = 0;
+            this.btnElaveEt.Text = "Əlavə et";
+            this.btnElaveEt.UseVisualStyleBackColor = false;
+            this.btnElaveEt.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnTemizle
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(208, 333);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 35);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Təmizlə";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnTemizle.BackColor = System.Drawing.Color.Red;
+            this.btnTemizle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTemizle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTemizle.Location = new System.Drawing.Point(208, 333);
+            this.btnTemizle.Name = "btnTemizle";
+            this.btnTemizle.Size = new System.Drawing.Size(164, 35);
+            this.btnTemizle.TabIndex = 1;
+            this.btnTemizle.Text = "Təmizlə";
+            this.btnTemizle.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtAd
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(22, 45);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(350, 32);
-            this.textBox1.TabIndex = 2;
+            this.txtAd.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtAd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAd.Location = new System.Drawing.Point(22, 45);
+            this.txtAd.Multiline = true;
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(350, 32);
+            this.txtAd.TabIndex = 2;
             // 
-            // textBox2
+            // txtSoyad
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(22, 128);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(350, 32);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtSoyad.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtSoyad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoyad.Location = new System.Drawing.Point(22, 128);
+            this.txtSoyad.Multiline = true;
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(350, 32);
+            this.txtSoyad.TabIndex = 3;
+            this.txtSoyad.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // txtDogomtarixi
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(22, 211);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(350, 32);
-            this.textBox3.TabIndex = 4;
+            this.txtDogomtarixi.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtDogomtarixi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDogomtarixi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDogomtarixi.Location = new System.Drawing.Point(22, 211);
+            this.txtDogomtarixi.Multiline = true;
+            this.txtDogomtarixi.Name = "txtDogomtarixi";
+            this.txtDogomtarixi.Size = new System.Drawing.Size(350, 32);
+            this.txtDogomtarixi.TabIndex = 4;
             // 
-            // textBox4
+            // txtMilliyyet
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(24, 283);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(350, 32);
-            this.textBox4.TabIndex = 5;
+            this.txtMilliyyet.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtMilliyyet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMilliyyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMilliyyet.Location = new System.Drawing.Point(24, 283);
+            this.txtMilliyyet.Multiline = true;
+            this.txtMilliyyet.Name = "txtMilliyyet";
+            this.txtMilliyyet.Size = new System.Drawing.Size(350, 32);
+            this.txtMilliyyet.TabIndex = 5;
             // 
             // label1
             // 
@@ -187,12 +187,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtMilliyyet);
+            this.Controls.Add(this.txtDogomtarixi);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
+            this.Controls.Add(this.btnTemizle);
+            this.Controls.Add(this.btnElaveEt);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -204,12 +204,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button btnElaveEt;
+        private System.Windows.Forms.Button btnTemizle;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.TextBox txtDogomtarixi;
+        private System.Windows.Forms.TextBox txtMilliyyet;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
